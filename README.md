@@ -24,7 +24,7 @@ published in *Genome Biology*.
 
 | Project | Description |
 | --- | --- |
-| **[GridCast](https://github.com/gioalvari/gridcast)** | Leakage-safe probabilistic energy forecasting with public PJM load, ERA5 weather, LightGBM, and conformal calibration. `Python` |
+| **[GridCast](https://github.com/gioalvari/gridcast)** | Leakage-safe probabilistic energy forecasting with public PJM load, ERA5 weather, LightGBM, and conformal calibration, plus a production serving layer: versioned API, fallback, load-tested admission limits, and canary releases with automatic rollback. `Python` |
 | **[LocalLLM Bench](https://github.com/gioalvari/local-llm-bench)** | Reproducible local-inference evaluation across quality, throughput, and memory, with seeded load and run-level intervals. `Python` |
 | **[RadixForge](https://github.com/gioalvari/radixforge)** | Radix-tree KV-cache orchestration for reusable prompt prefixes through native `llama.cpp` APIs. `C++` |
 | **[Agent Memory Layer](https://github.com/gioalvari/agent-memory-layer)** | OpenAI-compatible proxy for persistent local agent memory with `llama.cpp` embeddings and SQLite retrieval. `C++17` |
@@ -32,7 +32,7 @@ published in *Genome Biology*.
 ## Technical focus
 
 `Python` `C++` `SQL` · LLM agents · RAG · forecasting · conformal prediction ·
-FastAPI · Pydantic · PySpark · AWS Bedrock · Kubernetes · MLflow · Airflow ·
+FastAPI · Pydantic · PySpark · AWS Bedrock · ECS · Terraform · Kubernetes · MLflow · Airflow ·
 `llama.cpp`
 
 ## Background
